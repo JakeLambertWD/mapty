@@ -295,7 +295,7 @@ class App {
   }
 
   _setLocalStorage() {
-    // store data to the local storage
+    /// store data to the local storage
     // JSON.stringify() converts an object to a string
     localStorage.setItem('workout', JSON.stringify(this.#workouts));
   }
